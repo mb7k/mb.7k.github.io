@@ -23,7 +23,7 @@ h2 {
     left: 16px;
 }
 
-h3,h4,h5 {
+h5 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -60,7 +60,7 @@ footer {
     
 }
 
-number {
+h3 {
     position: fixed;
 	text-align: left;
 	padding-bottom: 25px;
@@ -71,10 +71,10 @@ number {
     color:white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size:12px;
+	font-size:10px;
 }
 
-cv {
+h4 {
     position: fixed;
 	text-align: right;
 	padding-bottom: 25px;
@@ -85,7 +85,7 @@ cv {
     color:white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size:12px;
+	font-size:10px;
 }
     
 #nav{
