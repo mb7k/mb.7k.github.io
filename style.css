@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-}
+  }
 
 
 h1 {
@@ -41,7 +41,7 @@ header {
     width: 100%;
 	color:white;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-size:25px;
 }
 
@@ -56,10 +56,38 @@ footer {
     color:white;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size:10px;
+	font-size:12px;
     
 }
 
+number {
+    position: fixed;
+	text-align: left;
+	padding-bottom: 25px;
+	padding-left: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size:12px;
+}
+
+cv {
+    position: fixed;
+	text-align: right;
+	padding-bottom: 25px;
+	padding-right:25px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size:12px;
+}
+    
 #nav{
 			list-style:none;
 			padding:0;
@@ -83,7 +111,7 @@ a{
 			color:#ffffff;
 			text-decoration: none;
 			font-family: 'Roboto', sans-serif;
-	        font-weight: 100;
+	        font-weight: 300;
 	        font-size:15px;
 		}
 a:hover{
