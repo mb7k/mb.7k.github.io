@@ -1,16 +1,36 @@
 body {
-	background-color: #E9FFCF
+	background-color: white
 	
 }
 
-h1,h2,h3,h4,h5,h6 {
+h6 {
 	color: black
+	padding: 0 20px;
 	font-family: 'Roboto', sans-serif;
-	
+	font-weight: 700;
+	font-size:15px;
+}
+
+h2,h3,h4,h5 {
+	color: black
+	padding: 0 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size:15px;
 }
 
 p {
 	color:black
+	padding: 0 20px;
 	font-family: 'Roboto', sans-serif;
-	
+	font-weight: 700;
+	font-size:25px;
+}
+
+a {
+	color:black
+	padding: 0 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size:15px;
 }
