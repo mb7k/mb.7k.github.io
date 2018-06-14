@@ -3,6 +3,13 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 </script>
+<script> 
+$(document).ready(function(){
+    $("#info").click(function(){
+        $("#name").slideToggle("slow");
+    });
+});
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8"/>
 <title>Marcelo Becerra</title>
@@ -10,32 +17,15 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900" rel="stylesheet">
 </head>
 <body>
-
-<script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $(".test").hide();
-    });
-});
-</script>
-</head>
-<body>
-
-<h2 class="test">This is a heading</h2>
-
-<p class="test">This is a paragraph.</p>
-<p>This is another paragraph.</p>
-
-<button>Click me</button>
-
-    <p>marcelobecerra
-	<br>architecture student
+    <div id="name">marcelobecerra </div>
+	<div id="info">architecture student
 	<br>monterrey, mexico
 	<br>
 	<br>download my c.v.<a href="cv.pdf">here</a>
 	<br>
 	<br>
 	<a href="book.pdf">book</a></p>
+	</div>
 
 	<h3><a href="https://www.instagram.com/mb_7k/"> instagram</a>
 	<br><a href="https://www.facebook.com/mb.7k.me"> facebook</a></h3>
